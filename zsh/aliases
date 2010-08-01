@@ -1,6 +1,9 @@
 # cd
 alias ..='cd ..'
 
+# cp
+alias cp="cp -r"
+
 # ls
 alias ls="ls -F"
 alias l="ls -lAh"
@@ -8,7 +11,7 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # git
-alias gl='git pull'
+alias gl='git log --pretty=oneline'
 alias gp='git push'
 alias gd='git diff'
 alias gc='git commit'
@@ -27,6 +30,7 @@ alias tlog='tail -f log/development.log'
 alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+alias rk='bundle exec rake'
 
 # commands starting with % for pasting from web
 alias %=' '
