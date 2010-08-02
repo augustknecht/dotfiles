@@ -1,5 +1,5 @@
 if [[ -n $SSH_CONNECTION ]]; then
-  export PS1='%m:%3~$(git_info_for_prompt)%# '
+  export PS1='%{${fg_bold[white]}%}%m:%3~%{${reset_color}%}%{${fg[black]}%}$(git_info_for_prompt)%{${reset_color}%}%{${fg_bold[white]}%}%#%{${reset_color}%} '
 else
   export PS1='%{${fg_bold[white]}%}%3~%{${reset_color}%}%{${fg[black]}%}$(git_info_for_prompt)%{${reset_color}%}%{${fg_bold[white]}%}%#%{${reset_color}%} '
 fi
