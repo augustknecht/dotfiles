@@ -19,14 +19,14 @@
   old = red bold
   new = green bold
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+  added = green
+  changed = yellow
+  untracked = red
 [alias]
   ci = commit
   co = checkout
 [github]
-  user = will
+  user = augustknecht
 [branch]
   autosetupmerge = true
 [apply]

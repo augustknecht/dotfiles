@@ -4,6 +4,9 @@ alias ..='cd ..'
 # cp
 alias cp="cp -r"
 
+#rm
+alias rm="rm -r"
+
 # ls
 alias ls="ls -F"
 alias l="ls -lAh"
