@@ -19,3 +19,6 @@ set cursorline
 set number
 
 map n :NERDTree<CR>
+
+au BufNewFile,BufRead *.mxml set filetype=mxml
+au BufNewFile,BufRead *.as set filetype=actionscript
