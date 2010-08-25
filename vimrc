@@ -18,6 +18,12 @@ set ruler
 set cursorline
 set number
 
+"windows
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 map <leader>n :NERDTree<CR>
 
 map <leader>t :FuzzyFinderTextMate<CR>
