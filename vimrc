@@ -1,8 +1,8 @@
+call pathogen#runtime_append_all_bundles()
+
 "colors
 colorscheme desert
 syntax on
-
-call pathogen#runtime_append_all_bundles()
 
 " indent
 set autoindent
