@@ -12,11 +12,18 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+" search
+set showmatch
+set ignorecase
+set incsearch
+
 " screen
 set ruler
 "set virtualedit=all
 set cursorline
 set number
+
+set autoread
 
 "windows
 map <C-h> <C-w>h
@@ -25,6 +32,8 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 map <leader>n :NERDTree<CR>
+
+imap jj <Esc>
 
 map <leader>t :FuzzyFinderTextMate<CR>
 let g:fuzzy_ignore = "*/log/*;*.swf;*.cache;*.ttf;*.jpg;*.png;*/doc/*;*/etc/*;*/vendor/*;*tmp/*;*/.svn/*;*/public/images/*;*/ufiles/*;*/.git/*;*/script/*"
