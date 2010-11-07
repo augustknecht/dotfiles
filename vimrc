@@ -1,7 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 
 "colors
-colorscheme desert
+colorscheme slate_aug
 syntax on
 
 " indent
