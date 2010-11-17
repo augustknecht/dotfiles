@@ -35,8 +35,8 @@ let colors_name = "slate_aug"
 :hi Special guifg=darkkhaki ctermfg=brown
 :hi Identifier guifg=salmon ctermfg=red
 :hi Include guifg=red ctermfg=red
-:hi PreProc guifg=red guibg=white ctermfg=red
-:hi Operator guifg=Red ctermfg=Red
+:hi PreProc guifg=#C13232 ctermfg=red
+:hi Operator guifg=#79CF79 ctermfg=Red
 :hi Define guifg=gold gui=bold ctermfg=yellow
 :hi Type guifg=CornflowerBlue ctermfg=2
 :hi Function guifg=navajowhite ctermfg=brown
