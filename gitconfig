@@ -2,8 +2,8 @@
 	name = August Knecht
 	email = augustknecht@gmail.com
 [core]
-  excludesfile = /home/augustk/.gitconfig
-  editor = mate -w
+  excludesfile = /Users/august/.gitignore
+  editor = vim
 [color]
   diff = auto
   status = auto
