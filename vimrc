@@ -1,8 +1,10 @@
 call pathogen#runtime_append_all_bundles()
 
 "colors
-colorscheme slate_aug
+set background=light
+colorscheme solarized
 syntax on
+set guifont=Monaco:h13
 
 " indent
 set autoindent
@@ -24,6 +26,7 @@ set cursorline
 set number
 
 set autoread
+set noswapfile
 
 "windows
 map <C-h> <C-w>h
@@ -42,3 +45,6 @@ au BufNewFile,BufRead *.mxml set filetype=mxml
 au BufNewFile,BufRead *.as set filetype=actionscript
 
 au BufNewFile,BufRead *.pde set filetype=c
+
+syntax enable
+filetype plugin indent on

@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/august/code/object_detection/ruby'
+let g:netrw_dirhist_2='/Users/august/code/YieldEstimator/Pods/OpenCV/opencv2.framework/Versions'
+let g:netrw_dirhist_3='/Users/august/code/mergefm'
+let g:netrw_dirhist_4='/Users/august/code/abundantbiology.com'
+let g:netrw_dirhist_5='/Users/august/code/augustknecht.com'
+let g:netrw_dirhist_6='/Users/august/code/marketer'
+let g:netrw_dirhist_7='/Users/august/code/leadnfeed.com'
+let g:netrw_dirhist_8='/Users/august/code/treatment-invoicer'

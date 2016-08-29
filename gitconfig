@@ -3,7 +3,7 @@
 	email = augustknecht@gmail.com
 [core]
   excludesfile = /Users/august/.gitignore
-  editor = vim
+	editor = mate -w
 [color]
   diff = auto
   status = auto
@@ -31,3 +31,7 @@
   autosetupmerge = true
 [apply]
   whitespace = nowarn
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
